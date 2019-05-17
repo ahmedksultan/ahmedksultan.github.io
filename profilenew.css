@@ -1,0 +1,57 @@
+.sidenav {
+    height: 150%; /* Full-height: remove this if you want "auto" height */
+    width: 25em; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: dodgerblue;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: Oswald;
+    font-weight: 600;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    text-align: center;
+    padding-bottom: 1em;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: darkblue;
+}
+
+/* Style page content */
+.main {
+    margin-left: 27.5em;
+    margin-right: 1.5em;
+}
+
+.main h1 {
+    font-family: Oswald;
+    font-size: 6em;
+    padding-top: 0px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.main h2,h3 {
+    font-family: Oswald;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.main p {
+    font-family: Lato; }
+
+.inline-block {
+    display: inline-block;
+    
+}
