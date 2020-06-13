@@ -1,0 +1,63 @@
+html {
+     scroll-behavior: smooth;
+}
+
+.landing {
+     background: rgb(0,164,255);
+     background-image: linear-gradient(135deg, rgba(0,164,255,1) 0%, rgba(46,0,185,1) 80%);
+     color: white;
+     height: 100%;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     padding: 2.5%;
+}
+
+.name {
+     font-size: 85px;
+     line-height: 95%;
+     font-weight: bold;
+}
+
+.desc { 
+     font-size: 22px;
+     text-align: justify;
+     line-height: 110%;
+}
+
+mark {
+     background: rgba(32, 121, 255, 0.15);
+}
+
+.subheader {
+     font-size: 24px;
+     color: black;
+     line-height: 200%;
+     text-decoration: underline;
+}
+
+.subheader:hover {
+     color: rgb(0,164,255);
+}
+
+ul {
+     padding-top: 0;
+     margin-top: 0;
+}
+ul li {
+     font-size: 14px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+}
+
+.flexbox-container img {
+    width: 23vw;
+    height: 23vw;
+    padding: 0;
+    margin: 1.5vh 0.5vw;
+}

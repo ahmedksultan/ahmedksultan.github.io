@@ -1,53 +1,142 @@
 <!DOCTYPE HTML>
 
-<html>
-    <head>
-        <title>Ahmed Sultan</title>
-        <style>
-            @import url('https://fonts.googleapis.com/css?family=Montserrat');
-            @import url('https://fonts.googleapis.com/css?family=Oswald');
-        </style>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <div class="sidenav">
-            <img style="border-radius: 50%; width: 300px; margin-left: 50px; margin-top: 20px; margin-bottom: 45px;" src ="profile-01.JPG" alt="profile">
-            <a href="#">ABOUT</a>
-            <a href="#portfolio">PORTFOLIO</a>
-            <a href=https://github.com/ahmedksultan>GITHUB</a>
-        </div>
-        <div class="main">
-            <h1>AHMED K. SULTAN</h1>
-            <h3 style="color: dodgerblue">asultan00@stuy.edu / (929) 215 8390 / New York, NY</h3>
-            <br>
-            <hr>
-            <p>Hard-working, motivated senior at Stuyvesant High School, with experience and interest in graphic/web design, computer science and technology.
-            <br>
-            <h2 style="font-size: 2em;">Experienced with</h2>
-            <ul style="padding-left: 3em; font-family: montserrat;">
-                <li>HTML5/CSS3</li>
-                <li>Python</li>
-                <li>Ruby</li>
-                <li>Java <i>(5 on AP Computer Science A)</i></li>
-                <li>JavaScript <i>(learning)</i></li>
-                <br>
-                <li>Adobe Illustrator</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe InDesign</li>
-                <li>Adobe After Effects</li>
-                <li>Adobe Premiere Pro</li>
-                <li>Adobe Spark</li>
-                <br>
-                <li>Microsoft Word</li>
-                <li>Microsoft Powerpoint</li>
-                <li>Microsoft Excel</li>
-            </ul>
-            <hr>
-            <a id="portfolio">
-                <h2 style="font-size: 2em;">Design portfolio</h2>
-                <p>Below, you can see some graphic design work I've done in the past.</p>
+<html lang="en">
+     <head>
+          <!-- META -->
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                <div class="flexbox-container">
+          <!-- BOOTSTRAP/CSS -->
+          <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+               integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+
+          <!-- SCRIPTS -->
+          <script src="https://kit.fontawesome.com/0cf2afd459.js" crossorigin="anonymous"></script>
+
+          <!-- TITLE -->
+          <title>Ahmed K. Sultan</title>
+     </head>
+
+     <body>
+          <!-- # -->
+          <div class="landing vh-100 d-flex">
+               <div class="justify-self-center align-self-center mx-auto w-75">
+                    <div class="text-left">
+                         <span class="name">Hi, I'm Ahmed.</span> <br> <br>
+                    </div>
+                    <div class="text-justify">
+                         <span class="desc">
+                              I'm currently a senior at Stuvyesant High School in New York, NY. I'm experienced and interested in web
+                              design,
+                              software development, graphic design and political science. <br> <br> <b><i>Nice to meet you!</b></i>
+                         </span> <br> <br>
+                    </div>
+                    <div class="text-left">
+                         <a style="margin-bottom: 0.5em;" class="btn btn-outline-light btn-sm" href="#about">About me</a>
+                         <a style="margin-bottom: 0.5em;" class="btn btn-outline-light btn-sm" href="#portfolio">Portfolio</a>
+                         <a style="margin-bottom: 0.5em;" class="btn btn-outline-light btn-sm" target="_blank" href="https://github.com/ahmedksultan"><i class="fab fa-github-square"></i> GitHub</a>
+                         <a style="margin-bottom: 0.5em;" class="btn btn-outline-light btn-sm" target="_blank" href="https://www.linkedin.com/in/ahmedksultan/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </div>
+               </div>
+          </div>
+
+          <!-- #ABOUT -->
+          <div id="about" class="w-75 mx-auto py-5">
+               <a class="text-muted" href="#"><small>&#8592; back to top</small></a>
+               <h1>About me</h1> 
+
+               <!-- resume pdf -->
+               <p><mark>View my resume in PDF format <a target="_blank" href="./static/ahmedksultan_resume.pdf"><b>here</b></a>.</mark></p>
+
+               <div class="px-5">
+                    <!-- education-->
+                    <a id="education" href="#education"><span class="subheader">Education</span></a> <br>
+                    <span><b>Stuyvesant High School</b>, <i>New York, NY</i> (September 2016 - June 2020)</span>
+                    <ul>
+                         <li><b><u>AP/college-level coursework:</u></b> AP World History, AP Computer
+                         Science A, AP US Government & History, AP Comparative Government, AP
+                         Macroeconomics, AP Microeconomics, AP Statistics, Software Development,
+                         Systems Level Programming, Advanced Journalism, Geopolitics</li>
+                         <li><b><u>Activities:</u></b> 
+                              <a href="https://stuymun.com/">Stuyvesant Model United Nations</a> Secretary-General (President), 
+                              <a href="https://www.stuyspec.com/">The Stuyvesant Spectator</a> Editor (Layout Dept.), 
+                              <a href="https://www.stuyhacks.org/">StuyHacks</a> Director of Design, Big Sibs Program
+                         </li>
+                    </ul>
+
+                    <!-- experiences/internships -->
+                    <a id="experiences" href="#experiences"><span class="subheader">Experiences</span></a> <br>
+                    <ul>
+                         <li><b>Executive Director & Head of Design</b> at <a href="https://blockchainsforschools.org/">Blockchains For
+                                   Schools</a> <i>(May 2019 - present)</i>
+                              <ul>
+                                   <li>Responsible for managing a team of designers, photographers and marketers</li>
+                                   <li>Created logos and promotional materials for various branches of the organization</li>
+                                   <li>Organized efforts to create a blockchain-focused hackathon (re-scheduled to 2021)</li>
+                              </ul>
+                         </li>
+                         <li><b>Software Development Mentee</b> at <a href="https://www.google.com/">Google</a> <i>(December 2019 - June
+                                   2020)</i>
+                              <ul>
+                                   <li>Worked with teammates to create ZAVY, an AI-powered educational assistant aimed at reimagining how
+                                        students study (WIP)</li>
+                                   <li>Worked with mentors at Google to learn more about development, marketing and artificial intelligence
+                                   </li>
+                              </ul>
+                         </li>
+                         <li><b>Technical Intern</b> at <a href="https://cryptonomic.tech/">Cryptonomic</a> <i>(July 2019 - November 2019)</i>
+                              <ul>
+                                   <li>Created data visualizations depicting activity on the blockchains for the Arronax/Mininax dashboards</li>
+                                   <li>Learned how to navigate the Tezos blockchain, and gained experience with using its developer tools</li>
+                              </ul>
+                         </li>
+                         <li><b>Volunteer</b> at <a href="https://geneticmedicine.weill.cornell.edu/">Weill Cornell Belfer Gene Therapy Core</a> <i>(July 2017 - August 2017/August 2019 - September 2019)</i>
+                              <ul>
+                                   <li>Organized and documented laboratory experiments and observational work</li>
+                                   <li>Created a new organizational system in the lab for experiment records</li>
+                              </ul>
+                         </li>
+                    </ul>
+                    
+                    <!-- skills -->
+                    <a id="skills" href="#skills"><span class="subheader">Skills</span></a> <br>
+                    <ul>
+                         <li><b>Adobe CC Suite</b></li>
+                         <ul>
+                              <li>Proficient in Illustrator, Photoshop, InDesign, After Effects and Premiere Pro</li>
+                         </ul>
+                         <li><b>Microsoft Office Suite</b></li>
+                         <li><b>G Suite</b></li>
+                         <li>Web/software development</li>
+                         <ul>
+                              <li>HTML5/CSS3</li>
+                              <li>Java</li>
+                              <li>JavaScript (& Node.js, MongoDB)</li>
+                              <li>Python (& Flask, Jinja, SQL)</li>
+                              <li>Ruby</li>
+                         </ul>
+                         <li>Communication and public speaking</li>
+                         <li>Social media & marketing</li>
+                         <li>Team management</li>
+                    </ul>
+               </div>
+          </div>
+
+          <!-- #ABOUT -->
+          <div id="portfolio" style="padding-top: 0 !important;" class="w-75 mx-auto py-5">
+               <a class="text-muted" href="#"><small>&#8592; back to top</small></a>
+               <h1>Portfolio</h1>
+
+               <div class="flexbox-container">
+                    <img src="static/img/stuytinydesk-01.jpg" alt="tinydesk">
+                    <img src="static/img/bfs.png" alt="bfs">
+                    <img src="static/img/DHA-01.jpg" alt="dha">
+                    <img src="static/img/MINIMUNC-02.jpg" alt="minimunc">
+                    <img src="static/img/sanctuary-stage-01.jpg" alt="sancstage">
+                    
+
+
                     <img src="images/ecovira-01.jpg" alt="ecovira">
                     <img src="images/peglegprep-01.jpg" alt="peglegprep">
                     <img src="images/lexeo-01.jpg" alt="lexeo">
@@ -57,9 +146,7 @@
                     <img src="images/b4s-01.jpg" alt="b4s">
                     <img src="images/DHA-01.jpg" alt="DHA">
                     <img src="images/sanctuary-stage-01.jpg" alt="sanctuarystage">
-                </div>
-            </a>
-            <br>
-        </div>
-    </body>
+               </div>
+
+     </body>
 </html>
